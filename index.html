@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Ing. Pablo Badillo Perez | Ciencias de la Computación</title>
+  
+  <link rel="icon" href="assets/img/Buap.png" type="image/x-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top header-bento">
+  <div class="container header-container d-flex align-items-center justify-content-between py-2 px-4">
+    <a href="#" class="d-flex align-items-center text-decoration-none">
+      <div class="logo-box">
+        <i class="bi bi-braces"></i>
+      </div>
+      <div class="ms-3">
+        <span class="d-block fw-bold text-dark mb-0" style="font-size: 1.1rem; letter-spacing: -0.5px;">PABLO BADILLO</span>
+        <span class="text-muted small fw-bold text-uppercase" style="letter-spacing: 1px; color: var(--accent) !important; font-size: 0.7rem;">Ingeniero en Computación</span>
+      </div>
+    </a>
+
+   <nav class="d-none d-lg-block">
+      <ul class="d-flex list-unstyled m-0 gap-3 align-items-center nav-bento">
+        <li><a href="#hero" class="nav-link">Inicio</a></li>
+        <li><a href="#about" class="nav-link">Sobre mi</a></li>
+        <li><a href="#experiencia" class="nav-link">Trayectoria</a></li>
+        <li><a href="#expertise" class="nav-link">Dominio</a></li>
+        <li><a href="#logros" class="nav-link">Proyectos</a></li>
+        <li><a href="#contacto-final" class="nav-link">Contacto</a></li>
+        <li>
+          <a href="assets/pdf/Pablo%20Badillo%20Perez.pdf" download="Pablo Badillo Perez.pdf" class="btn-download-bento text-decoration-none">
+            <i class="bi bi-download me-2"></i> CV
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<a href="assets/pdf/Pablo%20Badillo%20Perez.pdf" download="Pablo Badillo Perez.pdf" class="btn-cv-float-mobile d-lg-none" title="Descargar CV">
+  <div class="btn-float-content d-flex align-items-center justify-content-center">
+    <i class="bi bi-file-earmark-pdf-fill fs-4"></i>
+  </div>
+</a>
+
+<main style="margin-top: 100px;">
+  
+  <section id="hero" class="py-5">
+    <div class="container py-4">
+      <div class="row align-items-center p-lg-4">
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="tech-badge-modern mb-3">
+            <i class="bi bi-cpu me-2"></i>Ingeniería & Tecnología
+          </div>
+          <h1 class="display-4 fw-800 text-primary mb-4" style="letter-spacing: -1.5px;">
+            Soluciones en <br><span class="typed hero-gradient-text"></span>
+          </h1>
+          <div class="border-left-accent ps-4 mb-5">
+            <p class="lead text-muted fs-6 m-0">Egresado de Ingeniería en Computación en proceso de titulación. Con gran capacidad de adaptación e iniciativa.</p>
+          </div>
+          
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#experiencia" class="btn btn-bento-primary">Ver Trayectoria <i class="bi bi-arrow-down-short ms-1"></i></a>
+            <a href="mailto:pablo.pbp13@gmail.com" class="btn btn-bento-secondary">
+              <i class="bi bi-envelope-fill me-2"></i> Email
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-6 mt-5 mt-lg-0 text-center" data-aos="zoom-in-left">
+          <div class="hero-image-modern">
+            <div class="orbit-ring"></div>
+            <img src="assets/img/PabloBadillo.jpg" alt="Pablo Badillo - Ingeniero" class="img-fluid profile-circle shadow-lg">
+            <div class="floating-glass-tag tag-1">
+              <i class="bi bi-shield-check text-accent fs-5"></i>
+              <span class="d-block fw-bold text-dark small ms-2">Soporte IT</span>
+            </div>
+            <div class="floating-glass-tag tag-2">
+              <i class="bi bi-code-slash text-accent fs-5"></i>
+              <span class="d-block fw-bold text-dark small ms-2">Desarrollo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN: SOBRE MÍ Y EDUCACIÓN -->
+  <section id="about" class="py-2">
+    <div class="container py-5">
+      <div class="sobre-mi-premium-card" data-aos="fade-up">
+        <div class="row g-0 align-items-stretch">
+          
+          <!-- Lado Izquierdo: Texto Sobre Mí -->
+          <div class="col-lg-7 p-0 position-relative animated-border-wrapper">
+            <div class="animated-border-box h-100 p-4 p-md-5 d-flex flex-column justify-content-center">
+              <div class="d-flex align-items-center gap-3 mb-4">
+                <div class="title-icon"><i class="bi bi-person"></i></div>
+                <h2 class="fw-bold m-0 text-primary">Sobre mí</h2>
+              </div>
+              <i class="bi bi-quote fs-1 text-accent opacity-25 mb-2" style="margin-left: -10px;"></i>
+              <p class="fs-5 text-dark fw-medium mb-0" style="line-height: 1.8; text-align: justify;">
+                Egresado de Ingeniería en Computación en proceso de titulación. Con gran capacidad de adaptación e iniciativa. Busco integrarme a un equipo dinámico para aplicar mis conocimientos técnicos y resolver desafíos reales.
+              </p>
+            </div>
+          </div>
+
+          <!-- Lado Derecho: Educación -->
+          <div class="col-lg-5 p-0 z-2 position-relative">
+            <div class="edu-gradient-panel h-100 p-4 p-md-5 d-flex flex-column justify-content-center align-items-center text-center text-white">
+              <div class="edu-icon-circle-glass mb-4"><i class="bi bi-mortarboard-fill"></i></div>
+              <span class="badge bg-white text-primary mb-3 tracking-wide px-3 py-2 rounded-pill">2019 - 2025</span>
+              <h5 class="fw-bold mb-3 text-white">BENEMÉRITA UNIVERSIDAD AUTÓNOMA DE PUEBLA</h5>
+              <p class="mb-4 small text-white-50 fw-bold tracking-wide" style="line-height: 1.6;">• INGENIERÍA EN CIENCIAS DE LA COMPUTACIÓN (PROCESO DE TITULACIÓN)</p>
+              
+              <div class="d-flex align-items-center justify-content-center mt-2">
+                <img src="assets/img/Buap.png" alt="Escudo BUAP" style="height: 60px; object-fit: contain; margin-right: 15px;">
+                <div class="text-start text-white fw-bold" style="font-size: 1.15rem; line-height: 1.2; letter-spacing: 0.5px;">
+                  Facultad de<br>Cs. de la Computación
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN: HABILIDADES Y TECNOLOGÍAS -->
+  <section id="habilidades-cursos" class="py-2">
+    <div class="container bento-island py-5">
+      <div class="row g-5 p-lg-4">
+        
+        <!-- Habilidades -->
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="title-wrapper mb-4">
+            <div class="title-icon"><i class="bi bi-lightning"></i></div>
+            <h2 class="fw-bold m-0 text-primary">Habilidades</h2>
+          </div>
+          <div class="skills-grid mt-4">
+            <div class="skill-item-card">
+              <i class="bi bi-palette"></i>
+              <span>Software de diseño</span>
+            </div>
+            <div class="skill-item-card">
+              <i class="bi bi-share"></i>
+              <span>Redes sociales</span>
+            </div>
+            <div class="skill-item-card">
+              <i class="bi bi-puzzle"></i>
+              <span>Resolución de problemas</span>
+            </div>
+            <div class="skill-item-card">
+              <i class="bi bi-people"></i>
+              <span>Trabajo en equipo</span>
+            </div>
+            <div class="skill-item-card">
+              <i class="bi bi-graph-up"></i>
+              <span>Mercadotecnia</span>
+            </div>
+            <div class="skill-item-card">
+              <i class="bi bi-chat-dots"></i>
+              <span>Buena comunicación</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tecnologías -->
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="title-wrapper mb-4">
+            <div class="title-icon"><i class="bi bi-terminal"></i></div>
+            <h2 class="fw-bold m-0 text-primary">Tecnologías y Software</h2>
+          </div>
+          
+          <div class="bento-tech-list mt-4">
+            <div class="bento-tech-item flex-column align-items-start">
+              <div class="d-flex align-items-center gap-3 w-100 mb-3">
+                <div class="tech-icon"><i class="bi bi-code-slash"></i></div>
+                <h6 class="fw-bold m-0 text-primary">Lenguajes de Programación</h6>
+              </div>
+              <div class="d-flex flex-wrap gap-2 w-100">
+                <span class="tech-micro-badge"><i class="fab fa-python" style="color: #3776AB;"></i> Python</span>
+                <span class="tech-micro-badge"><i class="fab fa-js-square" style="color: #F7DF1E;"></i> JavaScript</span>
+                <span class="tech-micro-badge"><i class="fab fa-java" style="color: #007396;"></i> Java</span>
+                <span class="tech-micro-badge"><i class="fab fa-html5" style="color: #E34F26;"></i> HTML</span>
+                <span class="tech-micro-badge"><i class="fab fa-css3-alt" style="color: #1572B6;"></i> CSS</span>
+              </div>
+            </div>
+
+            <div class="bento-tech-item flex-column align-items-start">
+              <div class="d-flex align-items-center gap-3 w-100 mb-3">
+                <div class="tech-icon"><i class="bi bi-tools"></i></div>
+                <h6 class="fw-bold m-0 text-primary">Entornos y Software</h6>
+              </div>
+              <div class="d-flex flex-wrap gap-2 w-100">
+                <span class="tech-micro-badge"><i class="fab fa-android" style="color: #3DDC84;"></i> Android Studio</span>
+                <span class="tech-micro-badge"><i class="fab fa-windows" style="color: #00A4EF;"></i> Microsoft Office</span>
+              </div>
+            </div>
+
+            <div class="bento-tech-item flex-column align-items-start">
+              <div class="d-flex align-items-center gap-3 w-100 mb-3">
+                <div class="tech-icon"><i class="bi bi-pc-display"></i></div>
+                <h6 class="fw-bold m-0 text-primary">Área Técnica</h6>
+              </div>
+              <div class="d-flex flex-wrap gap-2 w-100">
+                <span class="tech-micro-badge"><i class="bi bi-wrench-adjustable" style="color: #475569;"></i> Soporte Técnico</span>
+                <span class="tech-micro-badge"><i class="bi bi-hdd-network" style="color: #475569;"></i> Mantenimiento IT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCIA -->
+  <section id="experiencia" class="py-2">
+    <div class="container bento-island py-5">
+      <div class="row p-lg-4">
+        <div class="col-12 mb-5 text-center" data-aos="fade-up">
+          <div class="title-wrapper justify-content-center mb-3">
+            <div class="title-icon"><i class="bi bi-briefcase"></i></div>
+            <h2 class="fw-bold m-0 text-primary">Experiencia Profesional</h2>
+          </div>
+          <p class="text-muted">Haz clic en cada tarjeta para ver las responsabilidades detalladas.</p>
+        </div>
+        <div class="col-12" data-aos="fade-up">
+          <div class="bento-timeline-grid">
+            <div class="bento-timeline-card" role="button" data-bs-toggle="modal" data-bs-target="#modalYuvox">
+              <div class="card-date">NOV 2024 - ABRIL 2025</div>
+              <h4 class="fw-bold text-primary mt-3 mb-1">YUVOX TELECOM</h4>
+              <h6 class="text-accent mb-3 small fw-bold text-uppercase">Soporte Técnico y Administración de Sistemas</h6>
+              <p class="text-muted small m-0">Mantenimiento preventivo y correctivo de equipos, instalación de SO, redes y PoE.</p>
+              <div class="card-action"><i class="bi bi-plus-lg"></i></div>
+            </div>
+            <div class="bento-timeline-card" role="button" data-bs-toggle="modal" data-bs-target="#modalBirth">
+              <div class="card-date">SEP 2024 - DIC 2025</div>
+              <h4 class="fw-bold text-primary mt-3 mb-1">BIRTH GROUP</h4>
+              <h6 class="text-accent mb-3 small fw-bold text-uppercase">Servicios de Infraestructura y Soporte IT</h6>
+              <p class="text-muted small m-0">Mantenimiento y Diseño Web, soporte técnico especializado y gestión de hardware.</p>
+              <div class="card-action"><i class="bi bi-plus-lg"></i></div>
+            </div>
+            <div class="bento-timeline-card" role="button" data-bs-toggle="modal" data-bs-target="#modalPlaza">
+              <div class="card-date">FEB 2022 - NOV 2022</div>
+              <h4 class="fw-bold text-primary mt-3 mb-1">SUCURSAL DE LA PLAZA DE LA TECNOLOGÍA LOCAL 625</h4>
+              <h6 class="text-accent mb-3 small fw-bold text-uppercase">Técnico en Mantenimiento de Equipos</h6>
+              <p class="text-muted small m-0">Mantenimiento correctivo de equipos informáticos e electrónicos y actualización de sistemas.</p>
+              <div class="card-action"><i class="bi bi-plus-lg"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODALES DE EXPERIENCIA -->
+  <div class="modal fade" id="modalYuvox" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bento-modal">
+        <div class="modal-header">
+          <div><h5 class="modal-title fw-bold mb-0 text-primary">YUVOX TELECOM</h5><small class="text-accent fw-bold">NOV 2024 - ABRIL 2025</small></div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-4">
+          <ul class="list-group list-group-flush bento-list">
+            <li class="list-group-item"><i class="bi bi-check-circle-fill text-accent"></i> Mantenimiento preventivo y correctivo de equipos informáticos y electrónicos.</li>
+            <li class="list-group-item"><i class="bi bi-check-circle-fill text-accent"></i> Instalación, configuración y actualización de sistemas operativos (Windows/Linux).</li>
+            <li class="list-group-item"><i class="bi bi-check-circle-fill text-accent"></i> Configuración y puesta en marcha de antenas inalámbricas, radios, APs (Access Points) y equipos PoE.</li>
+            <li class="list-group-item"><i class="bi bi-check-circle-fill text-accent"></i> Depuración y asignación de direcciones IP.</li>
+            <li class="list-group-item"><i class="bi bi-check-circle-fill text-accent"></i> Conocimientos básicos de conceptos de servidores y redes.</li>
+            <li class="list-group-item"><i class="bi bi-check-circle-fill text-accent"></i> Configuración y administración de switches de capa 2.</li>
+            <li class="list-group-item"><i class="bi bi-check-circle-fill text-accent"></i> Ponchado y certificación de cables de red (UTP).</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="modalBirth" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bento-modal">
+        <div class="modal-header">
+          <div><h5 class="modal-title fw-bold mb-0 text-primary">BIRTH GROUP</h5><small class="text-accent fw-bold">SEP 2024 - DIC 2025</small></div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-4">
+          <ul class="list-group list-group-flush bento-list">
+            <li class="list-group-item"><i class="bi bi-check-circle-fill text-accent"></i> <strong>Mantenimiento y Diseño Web:</strong> Gestión integral de sitios web, asegurando un funcionamiento óptimo y una interfaz moderna.</li>
+            <li class="list-group-item"><i class="bi bi-check-circle-fill text-accent"></i> <strong>Soporte Técnico Especializado:</strong> Asistencia técnica preventiva y correctiva para garantizar la continuidad operativa.</li>
+            <li class="list-group-item"><i class="bi bi-check-circle-fill text-accent"></i> <strong>Almacenamiento y Gestión de Hardware:</strong> Administración y resguardo de equipos de cómputo, optimizando el inventario y su disponibilidad.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="modalPlaza" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bento-modal">
+        <div class="modal-header">
+          <div><h5 class="modal-title fw-bold mb-0 text-primary">SUCURSAL DE LA PLAZA DE LA TECNOLOGÍA LOCAL 625 PUEBLA PUE</h5><small class="text-accent fw-bold">FEB 2022 - NOV 2022</small></div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-4">
+          <ul class="list-group list-group-flush bento-list">
+            <li class="list-group-item"><i class="bi bi-check-circle-fill text-accent"></i> Mantenimiento, correctivo de equipos informáticos e electrónicos.</li>
+            <li class="list-group-item"><i class="bi bi-check-circle-fill text-accent"></i> Instalación, configuración y actualización de sistemas operativos.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN: ÁREAS DE DOMINIO -->
+  <section id="expertise" class="py-2">
+    <div class="container py-5">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <div class="title-wrapper justify-content-center mb-3">
+          <div class="title-icon"><i class="bi bi-layers"></i></div>
+          <h2 class="fw-bold m-0 text-primary">Áreas de Dominio</h2>
+        </div>
+        <p class="text-muted fs-6">Pasa el cursor sobre cada área para descubrir los detalles técnicos.</p>
+      </div>
+      
+      <div class="row g-4 px-lg-4 justify-content-center">
+        
+        <!-- Tarjeta 1 -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="domain-slide-card">
+            <div class="domain-slide-content">
+              <div class="domain-slide-icon"><i class="bi bi-server"></i></div>
+              <h4 class="domain-slide-title">Infraestructura <br>& Redes</h4>
+              <ul class="domain-slide-list">
+                <li><i class="bi bi-check2"></i> Administración de switches L2</li>
+                <li><i class="bi bi-check2"></i> Configuración de APs y PoE</li>
+                <li><i class="bi bi-check2"></i> Ponchado y certificación UTP</li>
+                <li><i class="bi bi-check2"></i> Gestión de direcciones IP</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="domain-slide-card highlight">
+            <div class="domain-slide-content">
+              <div class="domain-slide-icon"><i class="bi bi-terminal"></i></div>
+              <h4 class="domain-slide-title">Desarrollo de <br>Software</h4>
+              <ul class="domain-slide-list">
+                <li><i class="bi bi-check2"></i> Lógica Backend (Python, Java)</li>
+                <li><i class="bi bi-check2"></i> Integración y diseño de APIs</li>
+                <li><i class="bi bi-check2"></i> Desarrollo Frontend (React, HTML)</li>
+                <li><i class="bi bi-check2"></i> Gestión de bases de datos</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="domain-slide-card">
+            <div class="domain-slide-content">
+              <div class="domain-slide-icon"><i class="bi bi-wrench"></i></div>
+              <h4 class="domain-slide-title">Soporte <br>Especializado</h4>
+              <ul class="domain-slide-list">
+                <li><i class="bi bi-check2"></i> Mantenimiento preventivo/correctivo</li>
+                <li><i class="bi bi-check2"></i> Sistemas Windows/Linux</li>
+                <li><i class="bi bi-check2"></i> Administración de activos IT</li>
+                <li><i class="bi bi-check2"></i> Atención y soporte a usuarios</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE PROYECTOS -->
+  <section id="logros" class="py-2">
+    <div class="container bento-island py-5">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <div class="title-wrapper justify-content-center mb-3">
+          <div class="title-icon"><i class="bi bi-images"></i></div>
+          <h2 class="fw-bold m-0 text-primary">Proyectos Destacados</h2>
+        </div>
+        <p class="text-muted">Evidencia de impacto. Haz clic para ver detalles, herramientas y galería.</p>
+      </div>
+
+      <div class="row g-4 px-lg-4">
+        <!-- Proyecto 1: Psicología -->
+        <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="interactive-project-card" data-bs-toggle="modal" data-bs-target="#modalProject1">
+            <div class="project-img-wrapper" style="background-color: #f8fafc; padding: 1.5rem;">
+              <img src="assets/img/psicologia/1.png" alt="Sitio Web de Psicología" style="object-fit: contain; filter: brightness(0.85) contrast(1.05);">
+            </div>
+            <div class="floating-project-info">
+              <h5 class="fw-bold text-primary mb-1">Sitio Web Profesional para Psicólogo</h5>
+              <p class="small text-muted mb-0 line-clamp-2">Página web informativa para dar a conocer el perfil del especialista y facilitar el contacto directo por correo electrónico.</p>
+            </div>
+            <div class="click-indicator"><i class="bi bi-arrows-angle-expand"></i></div>
+          </div>
+        </div>
+
+        <!-- Proyecto 2: SGILA (Tesis) -->
+        <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="interactive-project-card" data-bs-toggle="modal" data-bs-target="#modalProject2">
+            <div class="project-img-wrapper" style="background-color: #f8fafc; padding: 1.5rem;">
+              <img src="assets/img/sgila/1.png" alt="Sistema SGILA" style="object-fit: contain; filter: brightness(0.85) contrast(1.05);">
+            </div>
+            <div class="floating-project-info">
+              <h5 class="fw-bold text-primary mb-1">SGILA - Gestión de Laboratorios</h5>
+              <p class="small text-muted mb-0 line-clamp-2">Lógica backend estructurada mediante API para el control de laboratorios de cómputo.</p>
+            </div>
+            <div class="click-indicator"><i class="bi bi-arrows-angle-expand"></i></div>
+          </div>
+        </div>
+
+        <!-- Proyecto 3: Constructora -->
+        <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="interactive-project-card" data-bs-toggle="modal" data-bs-target="#modalProject3">
+            <div class="project-img-wrapper" style="background-color: #f8fafc; padding: 1.5rem;">
+              <img src="assets/img/constructora/1.png" alt="Web de Constructora" style="object-fit: contain; filter: brightness(0.85) contrast(1.05);">
+            </div>
+            <div class="floating-project-info">
+              <h5 class="fw-bold text-primary mb-1">Sitio Web Constructora</h5>
+              <p class="small text-muted mb-0 line-clamp-2">Diseño y desarrollo web corporativo para visualización de obras y servicios.</p>
+            </div>
+            <div class="click-indicator"><i class="bi bi-arrows-angle-expand"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODALES DE LOS PROYECTOS -->
+  
+  <!-- Modal 1: Psicología -->
+  <div class="modal fade" id="modalProject1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content bento-modal overflow-hidden">
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3 z-3 bg-white" data-bs-dismiss="modal"></button>
+        <div class="row g-0">
+          <div class="col-lg-7 bg-light">
+            <div id="carouselProj1" class="carousel slide h-100" data-bs-ride="carousel">
+              <div class="carousel-inner h-100">
+                <div class="carousel-item active h-100"><img src="assets/img/psicologia/1.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 1" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/psicologia/2.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 2" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/psicologia/3.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 3" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/psicologia/4.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 4" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/psicologia/5.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 5" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/psicologia/6.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 6" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/psicologia/7.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 7" style="filter: brightness(0.85) contrast(1.05);"></div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselProj1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle p-3"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselProj1" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark rounded-circle p-3"></span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-5 p-5 d-flex flex-column justify-content-center">
+            <span class="badge bg-primary text-white mb-3 align-self-start p-2">DESARROLLO WEB</span>
+            <h3 class="fw-bold text-primary mb-3">Sitio Web Profesional para Psicólogo</h3>
+            <p class="text-muted" style="text-align: justify;">
+              Diseño y desarrollo de un sitio web profesional enfocado en presentar el perfil, áreas de especialidad y servicios de un psicólogo. La plataforma funciona como una tarjeta de presentación digital interactiva que permite a los pacientes conocer su información detallada y establecer contacto directo mediante un formulario integrado al correo electrónico.
+            </p>
+            <h6 class="fw-bold mt-4 mb-3 text-dark">Herramientas y Tecnologías:</h6>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-light text-dark border p-2">HTML5 / CSS3</span>
+              <span class="badge bg-light text-dark border p-2">JavaScript</span>
+              <span class="badge bg-light text-dark border p-2">Formulario de Contacto</span>
+              <span class="badge bg-light text-dark border p-2">Diseño Responsivo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: SGILA (Tesis) -->
+  <div class="modal fade" id="modalProject2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content bento-modal overflow-hidden">
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3 z-3 bg-white" data-bs-dismiss="modal"></button>
+        <div class="row g-0">
+          <div class="col-lg-7 bg-light">
+            <div id="carouselProj2" class="carousel slide h-100" data-bs-ride="carousel">
+              <div class="carousel-inner h-100">
+                <div class="carousel-item active h-100"><img src="assets/img/sgila/1.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 1" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/sgila/2.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 2" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/sgila/3.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 3" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/sgila/4.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 4" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/sgila/5.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 5" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/sgila/6.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 6" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/sgila/7.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 7" style="filter: brightness(0.85) contrast(1.05);"></div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselProj2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle p-3"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselProj2" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark rounded-circle p-3"></span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-5 p-5 d-flex flex-column justify-content-center">
+            <span class="badge bg-accent text-white mb-3 align-self-start p-2" style="background-color: var(--accent);">PROYECTO DE TESIS / API BACKEND</span>
+            <h3 class="fw-bold text-primary mb-3">SGILA - Sistema para Laboratorios</h3>
+            <p class="text-muted" style="text-align: justify;">
+              Plataforma integral que optimiza la administración de múltiples sedes mediante una API en tiempo real. El sistema sincroniza el control de inventario dinámico con la supervisión de personal, automatizando la verificación de asistencias y el cumplimiento de guardias. Además, garantiza la trazabilidad total de los activos mediante un historial detallado de préstamos y un motor de notificaciones que gestiona alertas entre laboratorios y recordatorios automáticos por correo.
+            </p>
+            <h6 class="fw-bold mt-4 mb-3 text-dark">Herramientas y Tecnologías:</h6>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-light text-dark border p-2"><i class="bi bi-filetype-py text-primary me-1"></i> Python</span>
+              <span class="badge bg-light text-dark border p-2">PostgreSQL</span>
+              <span class="badge bg-light text-dark border p-2">Lógica API</span>
+              <span class="badge bg-light text-dark border p-2">React & Tailwind</span>
+              <span class="badge bg-light text-dark border p-2">Tkinter</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Constructora -->
+  <div class="modal fade" id="modalProject3" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content bento-modal overflow-hidden">
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3 z-3 bg-white" data-bs-dismiss="modal"></button>
+        <div class="row g-0">
+          <div class="col-lg-7 bg-light">
+            <div id="carouselProj3" class="carousel slide h-100" data-bs-ride="carousel">
+              <div class="carousel-inner h-100">
+                <div class="carousel-item active h-100"><img src="assets/img/constructora/1.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 1" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/constructora/2.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 2" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/constructora/3.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 3" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/constructora/4.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 4" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/constructora/5.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 5" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/constructora/6.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 6" style="filter: brightness(0.85) contrast(1.05);"></div>
+                <div class="carousel-item h-100"><img src="assets/img/constructora/7.png" class="d-block w-100 h-100 object-fit-contain p-4" alt="Vista 7" style="filter: brightness(0.85) contrast(1.05);"></div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselProj3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle p-3"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselProj3" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark rounded-circle p-3"></span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-5 p-5 d-flex flex-column justify-content-center">
+            <span class="badge bg-dark text-white mb-3 align-self-start p-2">DISEÑO Y DESARROLLO WEB</span>
+            <h3 class="fw-bold text-primary mb-3">Sitio Web para Constructora</h3>
+            <p class="text-muted" style="text-align: justify;">
+              Creación de un sitio web profesional e intuitivo para una empresa del sector de la construcción o remoelacion. Su objetivo es visualizar de manera atractiva el portafolio de obras finalizadas, detallar los servicios ofrecidos y proporcionar una vía de contacto directo con clientes potenciales.
+            </p>
+            <h6 class="fw-bold mt-4 mb-3 text-dark">Herramientas y Tecnologías:</h6>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-light text-dark border p-2">HTML5</span>
+              <span class="badge bg-light text-dark border p-2">CSS3</span>
+              <span class="badge bg-light text-dark border p-2">TypeScript</span>
+              <span class="badge bg-light text-dark border p-2">JavaScript</span>
+               <span class="badge bg-light text-dark border p-2">Node-which</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="contacto-final" class="py-2 mb-5">
+    <div class="container bento-island py-5">
+      <div class="row align-items-center p-lg-4">
+        <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
+          <h2 class="display-6 fw-bold text-primary mb-3">Contáctame</h2>
+          <p class="text-muted mb-4">¿Listo para resolver desafíos reales? Busco integrarme a un equipo dinámico.</p>
+          <div class="bento-location-badge">
+            <i class="bi bi-geo-alt-fill text-accent me-2"></i> Puebla, Pue
+          </div>
+        </div>
+        <div class="col-lg-7" data-aos="fade-left">
+          <div class="bento-contact-grid">
+            <a href="tel:2223255370" class="bento-contact-card text-decoration-none">
+              <div class="contact-icon phone"><i class="bi bi-telephone"></i></div>
+              <div><span class="d-block text-muted small fw-bold tracking-wide">TELÉFONO</span><span class="fw-bold text-primary">222 325 5370</span></div>
+            </a>
+            <a href="mailto:pablo.pbp13@gmail.com" class="bento-contact-card text-decoration-none">
+              <div class="contact-icon email"><i class="bi bi-envelope"></i></div>
+              <div><span class="d-block text-muted small fw-bold tracking-wide">CORREO</span><span class="fw-bold text-primary small">pablo.pbp13@gmail.com</span></div>
+            </a>
+            <a href="https://wa.me/522223255370" target="_blank" class="bento-contact-card text-decoration-none full-width">
+              <div class="contact-icon whatsapp"><i class="bi bi-whatsapp"></i></div>
+              <div class="d-flex justify-content-between align-items-center w-100">
+                <div><span class="d-block text-muted small fw-bold tracking-wide">WHATSAPP</span><span class="fw-bold text-primary">Enviar Mensaje Directo</span></div>
+                <i class="bi bi-arrow-right text-success fs-5"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Referencias -->
+      <div class="mt-5 pt-5 border-top px-lg-4" data-aos="fade-up">
+        <h5 class="fw-bold text-primary mb-4 text-center">Referencias</h5>
+        <div class="row g-3">
+          <div class="col-md-4">
+            <div class="bento-ref-card">
+              <h6 class="fw-bold text-primary mb-1">Psic. Gabriel Roldan</h6>
+              <p class="small text-muted mb-0"><i class="bi bi-telephone-fill me-2 text-accent"></i> Cel: 2212759745</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="bento-ref-card">
+              <h6 class="fw-bold text-primary mb-1">Ivan Sanchez Guzman</h6>
+              <p class="small text-muted mb-1">Encargado de diseño y equipo de marketing</p>
+              <p class="small text-muted mb-0"><i class="bi bi-telephone-fill me-2 text-accent"></i> Cel: 2223800843</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="bento-ref-card">
+              <h6 class="fw-bold text-primary mb-1">Jose Luis Vergara Monroy</h6>
+              <p class="small text-muted mb-1">Local 625 Pla. Tecnologia</p>
+              <p class="small text-muted mb-0"><i class="bi bi-telephone-fill me-2 text-accent"></i> Cel: 2225685849</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER TECNOLÓGICO Y ANIMACIÓN INTEGRADA (Corte Diagonal) -->
+<footer class="tech-footer-premium">
+  <div class="pcb-bg-overlay">
+    <svg width="100%" height="100%" viewBox="0 0 1000 250" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path id="trace-f1" d="M -50 80 L 150 80 L 200 130 L 400 130 L 450 80 L 700 80 L 750 130 L 1050 130" fill="none" stroke="rgba(37, 99, 235, 0.2)" stroke-width="2"/>
+      <path id="trace-f2" d="M 1050 180 L 800 180 L 750 130 L 500 130 L 450 180 L 250 180 L 200 130 L -50 130" fill="none" stroke="rgba(37, 99, 235, 0.15)" stroke-width="1.5"/>
+      <path id="trace-f3" d="M -50 200 L 100 200 L 150 150 L 550 150 L 600 200 L 1050 200" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1"/>
+      
+      <circle r="4" fill="#2563eb" filter="drop-shadow(0 0 6px #2563eb)">
+        <animateMotion dur="8s" repeatCount="indefinite"><mpath href="#trace-f1"/></animateMotion>
+      </circle>
+      <circle r="3" fill="#60a5fa" filter="drop-shadow(0 0 4px #60a5fa)">
+        <animateMotion dur="6s" repeatCount="indefinite" begin="2s"><mpath href="#trace-f1"/></animateMotion>
+      </circle>
+      <circle r="4" fill="#2563eb" filter="drop-shadow(0 0 6px #2563eb)">
+        <animateMotion dur="10s" repeatCount="indefinite"><mpath href="#trace-f2"/></animateMotion>
+      </circle>
+    </svg>
+  </div>
+
+  <div class="container footer-content position-relative z-3">
+    <div class="row align-items-center mb-4">
+      <div class="col-12 text-center">
+        <h4 class="fw-light italic text-white mb-2" style="font-family: 'Playfair Display', serif;">
+          "Cualquier tecnología suficientemente avanzada es equivalente a la magia"
+        </h4>
+        <span class="text-uppercase small opacity-75" style="letter-spacing: 2px; color: var(--accent);">— Arthur C. Clarke</span>
+      </div>
+    </div>
+    <hr style="border-color: rgba(255,255,255,0.1); margin: 20px 0;">
+    <div class="row g-3 align-items-center">
+      <div class="col-md-6 text-center text-md-start">
+        <h6 class="fw-bold text-white mb-0">BADILLO PEREZ PABLO</h6>
+        <p class="text-white-50 small text-uppercase fw-bold mb-0" style="font-size: 0.75rem; letter-spacing: 1px;">Ingeniero en Ciencias de la Computación</p>
+      </div>
+      <div class="col-md-6 text-center text-md-end">
+        <p class="text-white-50 small mb-0">
+          <i class="bi bi-geo-alt-fill me-1 text-accent"></i> Puebla, Pue
+        </p>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-12 text-center">
+        <p class="mb-0 text-white-50" style="font-size: 0.75rem;">
+          © 2026 BADILLO PEREZ PABLO | TODOS LOS DERECHOS RESERVADOS.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+  AOS.init({ duration: 800, once: true, offset: 50 });
+
+  new Typed('.typed', {
+    strings: ["DESARROLLO DE SOFTWARE.", "INFRAESTRUCTURA IT.", "REDES Y SISTEMAS."],
+    typeSpeed: 60,
+    backSpeed: 40,
+    loop: true
+  });
+</script>
+
+</body>
+</html>
